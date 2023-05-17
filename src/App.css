@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+.todo form {
+  width: 50%;
+  margin: auto;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+form button,
+form input {
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.filters {
+  width: 75%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+}
+
+.todoList {
+  width: 75%;
+  margin: 10px auto;
+  padding: 5px 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.todoList .todo {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
